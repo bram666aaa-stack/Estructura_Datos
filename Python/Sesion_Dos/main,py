@@ -1,0 +1,14 @@
+from Alumno import Alumno
+
+# Main
+alumno1 = Alumno(
+    "2026001",
+    "Juan",
+    "Pérez López",
+    "Ingeniería en Sistemas"
+)
+
+# Mostrar datos
+print(
+    alumno1.obtener_datos(80, 75, 90)
+)
